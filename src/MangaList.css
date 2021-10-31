@@ -1,0 +1,39 @@
+.body {
+    background-color: whitesmoke; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    justify-content: space-around;
+    min-height: 1000px;
+}
+
+.manga__container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border: solid 3px rgb(34, 34, 34);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.manga {
+    align-content: flex-start;
+    text-decoration: cornsilk;
+    display: inline-flex;
+    margin: 5px;
+}
+
+.manga__icon {
+    object-fit: cover;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.manga__tags {
+    color: cadetblue;
+}
